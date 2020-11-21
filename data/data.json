@@ -1,0 +1,202 @@
+{
+    "intro":
+    {
+        "title": "HUEMIDIfi",
+        "paragraphs": [
+
+
+            {
+                "text": "HUEMIDIfi development board is a pocket musical IoT device. It produces MIDI data that can be directed via an onboard web service, allowing multiple human and machine clients to collaborate effortlessly in real-time."
+            },
+            {
+                "text": "MIDI messages broadcasted by the device are generated according to its state, which is continuously monitored and set by all webapp instances. This is achieved via simple POST-request based API."
+            }
+        ]
+    },
+
+    "about":
+    {
+        "title": "HUEMIDIfi",
+        "paragraphs": [
+
+
+            {
+                "text": "HUEMIDIfi is an open and extensible platform that encourages freely shared creativity. This device is an attempt to lower the difficulty threshold for entry into the world of MIDI, an omnipresent technology that is nearly 40 years old. A modifiable, scalable multi-user research platform that introduces the flexibility of the Web2.0-style human-machine interaction to the realm of MIDI — a part of a collaborative vision of the ways human potential can be realized."
+            },
+            {
+                "text": "HUEMIDIfi allows for a broad range of artistic techniques and approaches sharing a deep historical context, such as Aleatoricism and Musique concrète, serialism and procedural group collaboration in the spirit of John Cage and John Zorn. But most importantly, it offers exceptional accessibility for various electronic musical instruments, multi-user control, interactivity, and a flexibility of interface design."
+            }
+        ]
+    },
+
+
+    "downloads":
+    {
+        "title": "Downloads",
+        "paragraphs": [
+        {
+            "title": "Firmware and webapp source code",
+            "paragraphs": [
+            {
+                "text": "HUEMIDIfi firmware development is in the hot phase. Revisions are being rolled out daily."
+            },
+            {
+                "text": "You can track the progress and get the latest version at Github. The code is provided under the terms of 'GPLv2.0-ONLY' licence."
+            }],
+            "links": [
+            {
+                "linkText": "Github repo",
+                "link": "dhttps://github.com/Aznbai/HUEMIDIFI_MULTICORE_DRUM_CHORD"
+            },
+            {
+                "linkText": "GNU General Public License, Version 2",
+                "link": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+            }]
+        },
+        {
+            "title": "Hardware fabrication files",
+            "paragraphs": [
+            {
+                "text": "All fabrication data is provided in Gerber format and was created and exported with EasyEDA Online Editor."
+            },
+            {
+                "text": "Both hardware versions were tested with JLCPCB production service. The hardware plans are provided under the terms of 'OHLv1.2' licence."
+            }],
+            "links": [
+            {
+                "linkText": "Huemidifi development board v1.0",
+                "link": "downloads/HUEMIDIFI_ESP32_MIDI_DEV_BOARD_v1_0_Gerber.zip"
+            },
+            {
+                "linkText": "Huemidifi development board v1.2",
+                "link": "downloads/HUEMIDIFI_ESP32_MIDI_DEV_BOARD_v1_2_Gerber.zip"
+            },
+            {
+                "linkText": "CERN Open Hardware License, Version 1.2",
+                "link": "https://ohwr.org/project/licenses/wikis/cern-ohl-v1.2"
+            }]
+
+        },
+        {
+            "title": "3D Printable Enclosure",
+            "paragraphs": [
+            {
+                "text": "Is now available for  download. Note that it is only compatible with the hardware v1.2. Upcomming changes will be published on Tinkercad"
+            },
+            {
+                "text": "The enclosure files are provided under the terms of 'OHLv1.2' licence."
+            }],
+            "links": [
+            {
+                "linkText": "Tinkercad: most recent version",
+                "link": "https://www.tinkercad.com/things/7Y2Hgf3RJaH-huemidificasev12"
+            },
+            {
+                "linkText": "Initial beta version",
+                "link": "downloads/HUEMIDIFI_CASE_1_2_STL_OBJ.zip"
+            },
+            {
+                "linkText": "CERN Open Hardware License, Version 1.2",
+                "link": "https://ohwr.org/project/licenses/wikis/cern-ohl-v1.2"
+            }]
+
+        }]
+    },
+    "features":
+    {
+        "title": "Features",
+        "paragraphs": [
+        {
+            "title": "IoT WebApp",
+            "paragraphs": [
+            {
+                "text": "Parameter changes are sent one at a time as they are being set by the user. After each change the UI state is updated upon server response. The JSON answer represents the remote state including the applied changes. The 4MB flash size limit of the ESP32 offers a fair challenge to create an elegant, pared-down, modern UI."
+            }]
+
+        },
+        {
+            "title": "Remote API calls",
+            "paragraphs": [
+            {
+                "text": "Machine-to-Machine communication works similarly: API calls are encapsulated in POST requests. JSON formatted output allows easy parsing by both humans and machines. The WebApp implements this communication technique by means of AJAX."
+            }]
+
+        },
+        {
+            "title": "Prototyping kit",
+            "paragraphs": [
+            {
+                "text": "Huemidifi is an attempt to lower the threshold of experiencing the legacy of MIDI (a technology that is nearly 40 years old). A modifiable, scalable multi user compatible research platform that introduces the  flexibility of web 2.0 based human & machine interaction to the realms of MIDI. "
+            }]
+
+        }]
+    },
+    "contact":
+    {
+        "title": "Get in touch",
+        "text": "Please submit your feature requests and bug reports via:  ",
+        "links": [
+        {
+            "linkText": "Github",
+            "link": "dhttps://github.com/Aznbai/HUEMIDIFI_MULTICORE_DRUM_CHORD"
+        },
+        {
+            "linkText": "Tinkercad",
+            "link": "https://www.tinkercad.com/users/1t4P1FlOPvg-aznbai"
+        },
+        {
+            "linkText": "Instagram",
+            "link": "https://www.instagram.com/nebenfach.in.offenbach/"
+        }]
+
+    },
+    "impressum":
+    {
+        "title": "Impressum",
+        "paragraphs": [
+        {
+
+            "text": "Rost Likholat"
+        },
+        {
+            "text": "D-60385 Frankfurt am Main"
+        },
+        {
+            "text": "info@huemidi.fi"
+        },
+        {
+            "text": "+4917691359846"
+
+
+        }]
+    },
+    "outro":
+    {
+        "title": "Dedication",
+        "text": "This project is dedicated to Margret Mattern"
+
+    },
+    "test":
+    {
+        "title": "Use cases",
+        "paragraphs": [
+        {
+            "text": "Use case: is a flow of events through the system. By definition many courses are available.What are users doing with the system?"
+        },
+        {
+            "text": "Humans who want to play remote gear. Collaborating musicians. Concurring users. Blind users. MIDI explorers an designers. Let your sleeping neighbours set the master volume of your party instead of calling police. "
+        },
+        {
+            "text": "Non-Humans with proper API implementation. "
+        },
+        {
+            "title": "Dual core architecture",
+            "paragraphs": [
+            {
+                "text": "Encoder interrupts, TFT screen and secure network communication routines can introduce long runtime delays and are handled by Core0 as well as the underlying RTOS. Core1 is solely dedicated to MIDI messaging to prevent any clock runaway issues. Current solution functions without any semaphoring/mutex logic. This limits the features to output-only and MIDI logic state manipulation to read-only."
+
+            }]
+        }]
+
+    }
+}
